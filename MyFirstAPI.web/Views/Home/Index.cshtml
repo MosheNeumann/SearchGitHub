@@ -1,0 +1,23 @@
+﻿@using MyFirstAPI.web.Models
+@model ViewModel
+
+
+<div class="container">
+    <div class="col-md-offset-4" style="padding-top:75px;">
+        
+        <form method="post"action="/Home/PopulateTable">
+            <input type="text" name="user"class="form-control"placeholder="Enter Name of Person To Search" />
+            <br />
+            <button class="btn btn-primary">Submit</button>
+        </form>
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Language</th>
+                <th>Stars</th>
+                <th>Watchers</th>
+            </tr>
+        </table>
+    </div>
+</div>

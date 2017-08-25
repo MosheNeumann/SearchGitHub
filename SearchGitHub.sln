@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstAPI.web", "MyFirstAPI.web\MyFirstAPI.web.csproj", "{DC8362D8-56A4-4F44-A4EA-FE04F8D7DDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstAPI.Data", "Reopository\MyFirstAPI.Data.csproj", "{D2209DAA-038F-4C10-8B16-059900BC80CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8362D8-56A4-4F44-A4EA-FE04F8D7DDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8362D8-56A4-4F44-A4EA-FE04F8D7DDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8362D8-56A4-4F44-A4EA-FE04F8D7DDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8362D8-56A4-4F44-A4EA-FE04F8D7DDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2209DAA-038F-4C10-8B16-059900BC80CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2209DAA-038F-4C10-8B16-059900BC80CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2209DAA-038F-4C10-8B16-059900BC80CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2209DAA-038F-4C10-8B16-059900BC80CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

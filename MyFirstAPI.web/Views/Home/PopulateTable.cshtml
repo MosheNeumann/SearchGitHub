@@ -1,0 +1,36 @@
+﻿@using MyFirstAPI.web.Models
+@using MyFirstAPI.Data
+@model ViewModel
+
+
+<div class="container">
+    <div class="col-md-offset-4" style="padding-top:75px;">
+
+        <form method="post" action="/Home/PopulateTable">
+            <input type="text" name="user" class="form-control" placeholder="Enter Name of Person To Search" />
+            <br />
+            <button class="btn btn-primary">Submit</button>
+        </form>
+        <h3>There Are @Model.person.repos For Projects For @Model.person.Name WHo Works at @Model.person.Company </h3>
+        
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Language</th>
+                <th>Stars</th>
+                <th>Watchers</th>
+            </tr>
+            @foreach(Project P in Model.Projects)
+            {
+                <tr>
+                    <td>@P.Name</td>
+                    <td>@P.Description</td>
+                    <td>@P.language</td>
+                    <td>@P.Stars</td>
+                    <td>@P.Watchers</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
